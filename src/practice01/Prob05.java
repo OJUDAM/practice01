@@ -7,7 +7,7 @@ public class Prob05 {
 	public static void main(String[] args) {
 		
 		/* 코드를 작성합니다 */
-		Scanner scan = new Scanner(System.in);
+		/*Scanner scan = new Scanner(System.in);
 		String finish="y";
 		
 		while(true) {
@@ -45,6 +45,14 @@ public class Prob05 {
 				System.out.println("종료");
 				break;
 			}
+		}
+*/	
+		int count = 1;
+		while(count < 100) {
+			if(count %10 == 3||count %10 == 6||count %10 == 9) {
+				System.out.println(count + " 짝");
+			}
+			count++;
 		}
 	}
 }
